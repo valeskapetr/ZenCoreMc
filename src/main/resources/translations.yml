@@ -1,0 +1,52 @@
+general:
+  prefix: "<#e99842><bold>ᴢᴇɴᴄᴏʀᴇ</bold></#e99842> <dark_gray>▸</dark_gray> "
+  noPermission: "<gray>Nemáš dostatečná oprávnění na vykonání tohoto příkazu. <#db4d4d>✘</#db4d4d>"
+  reloaded: "<gray>Plugin byl úspěšně znovu načten."
+  playerNotFound: "<gray>Hráč <#e99842><player></#e99842> <gray>nebyl nalezen."
+  playerJoin: "<gray>Hráč <#e99842><player></#e99842> <gray>se připojil k serveru. <#4ddb99>✔</#4ddb99>"
+  playerQuit: "<gray>Hráč <#e99842><player></#e99842> <gray>opustil server. <#db4d4d>✘</#db4d4d>"
+  playerDeath: "<gray>Hráč <#e99842><player></#e99842> <gray>umřel. <#db4d4d>☠</#db4d4d>"
+  cantBreakBlock: "<gray>V tomto světě nelze ničit blocky."
+  cantPlaceBlock: "<gray>V tomto světě nelze stavět blocky."
+
+messages:
+  advancements:
+    playerGet: "<gray>Získal jsi advancement <#e99842><advancement></#e99842><gray>."
+    playerGetNotify: "<gray>Hráč <#e99842><player></#e99842> <gray>získal advancement <#e99842><advancement></#e99842><gray>."
+
+  broadcast:
+    basicUsage: "<gray>Použij prosím správnou formu příkazu: <#e99842>/broadcast <zpráva></#e99842><gray>."
+    broadcastSent: "<gray>Oznámení bylo úspěšně odesláno."
+    format: "<#e99842><bold>ᴏᴢɴᴀᴍᴇɴɪ</bold></#e99842> <dark_gray>▸</dark_gray> <gray><message></gray>"
+
+  fly:
+    flyEnabled: "<gray>Tvé létání bylo <#4ddb99>povoleno</#4ddb99><gray>. <#4ddb99>✔</#4ddb99>"
+    flyDisabled: "<gray>Tvé létání bylo <#db4d4d>zakázáno</#db4d4d><gray>. <#db4d4d>✘</#db4d4d>"
+    flyEnabledOther: "<gray>Povolil jsi létání hráči <#e99842><player></#e99842><gray>."
+    flyDisabledOther: "<gray>Zakázal jsi létání hráči <#e99842><player></#e99842><gray>."
+    flyEnabledByOther: "<gray>Bylo Ti povoleno létání. <#4ddb99>✔</#4ddb99>"
+    flyDisabledByOther: "<gray>Bylo Ti zakázáno létání. <#db4d4d>✘</#db4d4d>"
+
+  glow:
+    glowEnabled: "<gray>Tvůj glow byl <#4ddb99>povolen</#4ddb99><gray>. <#4ddb99>✔</#4ddb99>"
+    glowDisabled: "<gray>Tvůj glow byl <#db4d4d>zakázán</#db4d4d><gray>. <#db4d4d>✘</#db4d4d>"
+
+
+  heal:
+    healed: "<gray>Byl jsi uzdraven. <#4ddb99>✔</#4ddb99>"
+    couldNotHeal: "<gray>Nepodařilo se uzdravit tohoto hráče."
+    basicUsage: "<gray>Použij prosím správnou formu příkazu: <#e99842>/heal <jméno></#e99842><gray>."
+    healedOther: "<gray>Úspěšně jsi uzdravil hráče <#e99842><player></#e99842><gray>."
+    healedByOther: "<gray>Byl jsi uzdraven. <#db4d4d>❤</#db4d4d>"
+
+  nick:
+    nickSet: "<gray>Tvá přezdívka byla nastavena na <#e99842><nick></#e99842><gray>. <#4ddb99>✔</#4ddb99>"
+    nickReset: "<gray>Tvá přezdívka byla vyresetována."
+    resetTarget: "<gray>Úspěšně jsi vyresetoval přezdívku hráči <#e99842><player></#e99842><gray>."
+    changedTarget: "<gray>Úspěšně jsi změnil přezdívku hráči <#e99842><player></#e99842><gray>."
+
+    usage:
+      usageSet: "<gray>Použij prosím správnou formu příkazu: <#e99842>/nick <jméno></#e99842><gray>."
+      usageSetOther: "<gray>Použij prosím správnou formu příkazu: <#e99842>/nick <jméno> <jméno hráče></#e99842><gray>."
+      usageReset: "<gray>Použij prosím správnou formu příkazu: <#e99842>/nick reset</#e99842><gray>."
+      usageResetOther: "<gray>Použij prosím správnou formu příkazu: <#e99842>/nick reset <jméno hráče></#e99842><gray>."

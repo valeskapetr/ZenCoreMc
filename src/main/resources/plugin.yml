@@ -1,0 +1,36 @@
+name: ZenCore
+version: "1.0"
+main: cz.valenty.zenCore.ZenCore
+api-version: "1.21"
+author: ValentyCZ
+website: https://www.valeskapetr.cz
+#commands:
+  #broadcast:
+    #aliases: /<command> <args>
+    #permission: zencore.admin.broadcast
+
+commands:
+  broadcast:
+    description: Broadcasts a message to entire server.
+    usage: /broadcast <message>
+    permission: zencore.admin.broadcast
+  heal:
+    description: Heals player.
+    usage: /heal <nick>
+    permission: zencore.cmd.healSelf
+  fly:
+    description: Toggles flying status of player.
+    usage: /fly <nick>
+    permission: zencore.cmd.flySelf
+  reload:
+    description: Reloads plugin configuration.
+    usage: /reload
+    permission: zencore.admin.reload
+  nick:
+    description: Customizes nicknames.
+    usage: /nick <nick>
+    permission: zencore.cmd.nickSelf
+  glow:
+    description: Glowing state of player.
+    usage: /glow
+    permission: zencore.cmd.glow

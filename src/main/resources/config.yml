@@ -1,0 +1,33 @@
+general:
+  chatFormat:
+    majitel: "<prefix> <gray><name></gray> <dark_gray>» <gradient:#00bbff:#f8fafb><message></gradient>"
+    default: "<prefix> <gray><name></gray> <dark_gray>» <white><message></white>"
+
+  blockBreak:
+    enabled: true
+    worlds:
+      - world
+
+  blockPlace:
+    enabled: true
+    worlds:
+      - world
+
+  protectWorlds:
+    enabled: true
+    worlds:
+      - world
+
+discord:
+  botToken: ""
+  channelId: ""
+
+  messages:
+    chat: "**{player}** » {message}"
+    join: "**{player}** se připojil na server!"
+    leave: "**{player}** opustil server!"
+    advancement: "**{player}** získal advancement {advancement}."
+    death: "**{player}** umřel."
+    
+    serverOnline: "Server je nyní **online**! 💚"
+    serverOffline: "Server je nyní **offline**! 💔"
